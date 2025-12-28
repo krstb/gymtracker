@@ -1,4 +1,4 @@
-const CACHE_NAME = 'arbeitstage-v1';
+const CACHE_NAME = 'gymtracker';
 const ASSETS = [
   'index.html',
   'manifest.json'
