@@ -232,7 +232,8 @@
             // 3. Render die offenen Geräte (TODO-Liste)
             listContainer.innerHTML = sortedTodoData.map(item => `
                 <div onclick="window.toggleDone(${item.id})" 
-                     class="group bg-white p-4 rounded-xl shadow-lg border-l-4 border-gray-200 transition duration-300 transform hover:scale-[1.02] hover:border-primary-green cursor-pointer">
+     class="group bg-white px-4 py-2 rounded-xl shadow-lg border-l-4 border-gray-200 transition duration-300 transform hover:scale-[1.02] hover:border-primary-green cursor-pointer">
+
                     <div class="flex justify-between items-start mb-3">
                         
                         <h2 class="text-xl font-extrabold text-gray-800 hover:text-blue-600 transition" 
